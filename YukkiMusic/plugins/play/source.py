@@ -24,7 +24,7 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 
 
 @app.on_message(
-    command([","سورس","السورس"])
+    command(["سورس","السورس"])
     & filters.group
     & ~filters.edited
 )
