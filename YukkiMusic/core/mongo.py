@@ -20,7 +20,7 @@ TEMP_MONGODB = "mongodb+srv://anonxmusic:anonxmusic@anonx.9v4i8.mongodb.net/?ret
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "Your bot Work Now"
+        "No MONGO DB URL found.. Your Bot will work on Yukki's Database"
     )
     temp_client = Client(
         "Yukki",
